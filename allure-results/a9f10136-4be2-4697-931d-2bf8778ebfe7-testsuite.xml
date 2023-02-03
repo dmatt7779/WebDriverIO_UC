@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675434733174' stop='1675434739705'>
+    <name>Login Page - Challenge 04</name>
+    <title>Login Page - Challenge 04</title>
+    <test-cases>
+        <test-case start='1675434733177' status='passed' stop='1675434737645'>
+            <name>Login with invalid credentials | auto-generated</name>
+            <title>Login with invalid credentials | auto-generated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675434737646' status='passed' stop='1675434739702'>
+            <name>Login with valid credentials | auto-generated</name>
+            <title>Login with valid credentials | auto-generated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

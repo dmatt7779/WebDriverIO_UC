@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675434733589' stop='1675434763489'>
+    <name>Ecommerce Application E2E</name>
+    <title>Ecommerce Application E2E</title>
+    <test-cases>
+        <test-case start='1675434733592' status='failed' stop='1675434763485'>
+            <name>E2E Checkout Test</name>
+            <title>E2E Checkout Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`.alert-success strong`) to have text
+                
+                Expected: "Sucess!"
+                Received: "Success!"</message>
+                <stack-trace>Error: Expect $(`.alert-success strong`) to have text
+                
+                Expected: "Sucess!"
+                Received: "Success!"
+                    at Context.&lt;anonymous> (file:///C:/Users/mateo.aguilar/Documents/wdio/wdio_Udemy02/test/specs/eCommerceE2E.js:50:46)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,32 @@
+let newArray = [10, 50, 10, 30, 40]
+
+/* let totalArrayValues = newArray.reduce((sum,array)=> sum + array,0);
+console.log(totalArrayValues); */
+
+let scores = [10, 50, 10, 30, 40, 8 ,9, 3, 5]
+let totalScores = scores.filter(score => score%2==0).map(score => score*3).reduce((score,array)=>score + array, 0)
+console.log(totalScores)
+
+//Arrow function or anonymous function use =>
+let sumOfNumbers = (a,b) => a + b
+console.log(sumOfNumbers(2,3))
+
+//IndexOf para validar en que posición se encuentra un caracter
+let newString = 'Sunday is a funday day'
+let count = 0
+let stringValue = newString.indexOf("day")
+console.log("First String Value " + stringValue)
+while(stringValue !== -1) {
+    count++
+    console.log("count" + count)
+    stringValue = newString.indexOf("day", stringValue + 1)
+    console.log("stringValue" + stringValue)
+}
+console.log("Total" + count)
+
+/////////////
+
+
+
+
+

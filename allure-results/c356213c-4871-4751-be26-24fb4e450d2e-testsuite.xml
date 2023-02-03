@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675439536425' stop='1675439582400'>
+    <name>Login Page - Challenge 04</name>
+    <title>Login Page - Challenge 04</title>
+    <test-cases>
+        <test-case start='1675439536425' status='passed' stop='1675439537621'>
+            <name>Navigate to sampleapp page</name>
+            <title>Navigate to sampleapp page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439537622' status='passed' stop='1675439538210'>
+            <name>Login with valid credentials and Welcome Text</name>
+            <title>Login with valid credentials and Welcome Text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439538210' status='passed' stop='1675439541690'>
+            <name>Login with empty username</name>
+            <title>Login with empty username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439541690' status='passed' stop='1675439545364'>
+            <name>Login with invalid password</name>
+            <title>Login with invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439545365' status='passed' stop='1675439549239'>
+            <name>Login with empty credentials</name>
+            <title>Login with empty credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439549242' status='passed' stop='1675439556352'>
+            <name>Login and Logout with texts | E2E</name>
+            <title>Login and Logout with texts | E2E</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439556353' status='passed' stop='1675439559692'>
+            <name>Validate element's type attribute</name>
+            <title>Validate element's type attribute</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675439559692' status='failed' stop='1675439570567'>
+            <name>Username field - not visible</name>
+            <title>Username field - not visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`[name='UserName']`) to be disabled
+                
+                Expected: "disabled"
+                Received: "not disabled"</message>
+                <stack-trace>Error: Expect $(`[name='UserName']`) to be disabled
+                
+                Expected: "disabled"
+                Received: "not disabled"
+                    at Context.&lt;anonymous> (file:///C:/Users/mateo.aguilar/Documents/wdio/wdio_Udemy02/test/specs/loginE2E.js:68:47)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675439570569' status='failed' stop='1675439581420'>
+            <name>Password fields not visible</name>
+            <title>Password fields not visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c780f35b-63c0-402c-ac24-720a985c65e2-attachment.png' type='image/png' size='38986'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`[name='Password']`) to be disabled
+                
+                Expected: "disabled"
+                Received: "not disabled"</message>
+                <stack-trace>Error: Expect $(`[name='Password']`) to be disabled
+                
+                Expected: "disabled"
+                Received: "not disabled"
+                    at Context.&lt;anonymous> (file:///C:/Users/mateo.aguilar/Documents/wdio/wdio_Udemy02/test/specs/loginE2E.js:75:47)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675439581421' status='passed' stop='1675439581970'>
+            <name>Login with invalid credentials | auto-generated</name>
+            <title>Login with invalid credentials | auto-generated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d8551d5a-a51d-47c1-8fb7-5ce4922c5bfe-attachment.png' type='image/png' size='38986'/>
+            </attachments>
+        </test-case>
+        <test-case start='1675439581971' status='passed' stop='1675439582399'>
+            <name>Login with valid credentials | auto-generated</name>
+            <title>Login with valid credentials | auto-generated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
